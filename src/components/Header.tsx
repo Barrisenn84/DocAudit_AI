@@ -314,10 +314,10 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               onClick={onOpenAiSettings}
               className="relative p-2 px-2.5 rounded-xl transition-all flex items-center space-x-1.5 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-200/80 shadow-xs cursor-pointer"
-              title="Configurar Motor IA Gemini 2.5 & Diagnóstico de Saúde"
+              title="Configurar Motor IA Gemini & Diagnóstico de Saúde"
             >
               <Sparkles className="w-4 h-4 text-indigo-600" />
-              <span className="text-xs font-bold hidden xl:inline">IA: Gemini 2.5</span>
+              <span className="text-xs font-bold hidden xl:inline">IA: Gemini</span>
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
             </button>
 

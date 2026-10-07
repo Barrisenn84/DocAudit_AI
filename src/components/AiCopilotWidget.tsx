@@ -42,7 +42,7 @@ export const AiCopilotWidget: React.FC<AiCopilotWidgetProps> = ({
       content:
         'Olá! Sou o **DocAudit Copilot**, seu consultor de Inteligência Artificial para controladoria, auditoria fiscal e tesouraria. Como posso ajudar na gestão do seu negócio hoje?',
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-      modelUsed: 'gemini-2.5-flash',
+      modelUsed: 'gemini-3.1-flash-lite',
     },
   ]);
 

@@ -158,7 +158,7 @@ export const AiSettingsModal: React.FC<AiSettingsModalProps> = ({
               <div className="bg-white p-2.5 rounded-xl border border-slate-200">
                 <span className="text-slate-500 block text-[10px]">Modelo Ativo</span>
                 <span className="font-bold text-slate-800 mt-0.5 block truncate">
-                  {statusData?.activeModel || 'gemini-2.5-flash'}
+                  {statusData?.activeModel || 'gemini-3.1-flash-lite'}
                 </span>
               </div>
 

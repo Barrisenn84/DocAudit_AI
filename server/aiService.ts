@@ -11,13 +11,14 @@ import {
 
 // Modelos oficiais do Google AI Studio / Gemini API
 export const GEMINI_MODELS = {
-  FLASH: process.env.GEMINI_MODEL || 'gemini-2.5-flash',
-  PRO: process.env.GEMINI_PRO_MODEL || 'gemini-2.5-pro',
-  LITE: process.env.GEMINI_LITE_MODEL || 'gemini-2.0-flash-lite',
+  FLASH: process.env.GEMINI_MODEL || 'gemini-3.1-flash-lite',
+  PRO: process.env.GEMINI_PRO_MODEL || 'gemini-3.8-flash',
+  LITE: process.env.GEMINI_LITE_MODEL || 'gemini-3.1-flash-lite',
   FALLBACK_ORDER: [
+    'gemini-3.1-flash-lite',
+    'gemini-3.8-flash',
+    'gemini-3.1-pro-preview',
     'gemini-2.5-flash',
-    'gemini-2.0-flash',
-    'gemini-1.5-flash',
   ],
 };
 
