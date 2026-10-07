@@ -1,0 +1,6 @@
+{
+  "name": "DocAudit AI - Extrator Financeiro & Reconciliação",
+  "description": "Extração de documentos fiscais e financeiros com Structured Outputs via Gemini JSON Schema, auditoria de cálculos, detecção de duplicidade e esteira de revisão.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
